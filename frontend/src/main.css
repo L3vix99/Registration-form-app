@@ -1,0 +1,22 @@
+
+.menu {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+text-shadow: 4px 4px 6px rgba(66,68,98,1);
+padding:40px;
+list-style-type: none;
+margin: 10px auto;
+
+}
+
+
+
+
+
+
+
+
