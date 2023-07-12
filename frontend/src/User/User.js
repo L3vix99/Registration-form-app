@@ -1,12 +1,12 @@
 import React from "react";
-import "./User.css"
+
 
 
 const User = () => {
 
 return(
     <>
-    <p class="text-center">Zarządzanie forumlarzami rekrutacyjnymi</p>
+    <p class="text-center">Management of recruitment forms</p>
     </>
 )
 

@@ -51,8 +51,10 @@ return (
                         onChange={handleInput} className='form-control rounded-0'></input>
                         {errors.password && <span className='text-danger'>{errors.password}</span>}
                     </div>
+
+            
                     <button type='submit' className='btn btn-success w-100 rounded-0'>Log in</button>
-                    <p>You are agree to auor terms and policies</p>
+                    
                     <Link to='/signup' className='btn btn-default border w-100 bg-light rounded-0 text-decoration-none'>Create Account</Link>
 
 

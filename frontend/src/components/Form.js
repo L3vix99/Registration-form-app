@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Form.css";
+
 
 class Form extends Component {
     state = {
@@ -211,7 +211,7 @@ class Form extends Component {
           </label> 
 
           <form onSubmit={this.handleSubmitFile}>
-          <label htmlFor="userfile">Wybierz plik z CV: </label><br />
+          <label htmlFor="userfile">Select resume file </label><br />
           <br />
           <input type="file" name="my-file"></input><br />
           <br />

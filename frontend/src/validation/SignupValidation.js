@@ -17,7 +17,7 @@ function validation(values){
     }
 
     else if(!email_pattern.test(values.email)) {
-        error.email = "Email Didn't math"
+        error.email = "Email Didn't match"
 
     } else {
         error.email = ""
@@ -28,7 +28,7 @@ function validation(values){
     }
 
     else if(!password_pattern.test(values.password)) {
-        error.password = "Password Didn't math"
+        error.password = "Password Didn't match"
 
     } else {
         error.password = ""
